@@ -10,6 +10,7 @@ const SideList = () => {
   const setRelatedVodeo = async(id) => {
     await fetchRelatedData(id)
       .then((res)=>{
+        console.log(res);
         setGlobalState({type: "SET_RELATED",payload:{related: res.data.items}})
       })
   }

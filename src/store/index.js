@@ -4,6 +4,7 @@ const initialState = {
   popular:[],
   related:[],
   selected:{}
+  
 }
 
 const reducer = (state, action)=>{
