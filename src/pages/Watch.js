@@ -1,10 +1,14 @@
 import React from 'react'
+import Layout from '../compotents/Layout/Layout'
+import SideList from '../compotents/SideList/SideList'
+import VideoDetail from '../compotents/Videodetail/VideoDetail'
 
 const Watch = () => {
   return (
-    <div>
-      watch page
-    </div>
+    <Layout>
+      <VideoDetail />
+      <SideList />
+    </Layout>
   )
 }
 
